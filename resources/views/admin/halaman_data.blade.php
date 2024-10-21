@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
-</head>
-<body>
-    <div class="container mx-auto p-8 h-screen">
+<div class="container mx-auto p-8 h-screen">
         <div class="bg-white shadow-lg text-white p-4 rounded-lg mb-8">
-            <h1 class="text-2xl pl-5 bg-green-700 rounded-lg py-3 font-semibold -ml-4 w-[575px]">Cek Data Pembayaran Siswa</h1>
+            <div class="h1 text-2xl pl-5 bg-green-700 rounded-lg py-3 font-semibold -mx-4 ">Cek Data Pembayaran Siswa</div>
             <div class="mt-4 flex ">
                 <input type="text" placeholder="Cari Siswa"
                     class="w-full text-gray-700 p-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 shadow-md"><br>
@@ -24,10 +14,10 @@
 <br><br>
         <!-- Informasi Siswa -->
         <div class="bg-white shadow-lg rounded-lg p-6 mb-8 border border-gray-500">
-            <h2 class="text-xl font-semibold mb-4 bg-green-700 text-white  rounded-md py-2 px-2">Informasi Siswa</h2>
+            <h2 class="text-xl font-semibold mb-4 bg-green-700 text-white  rounded-md py-2 px-2 -mt-6 -mx-6">Informasi Siswa</h2>
             <table class="table-auto w-full text-left text-sm mt-2">
                 <tbody>
-                    <tr class="bg-gray-200 w-full rounded-md">
+                    <tr class="bg-gray-200 rounded-md">
                         <td class="py-2">NIS:</td>
                         <td class="py-2 ">{{$nis}}</td>
                     </tr>
@@ -35,7 +25,7 @@
                         <td class="py-2">Nama:</td>
                         <td class="py-2">{{$nama}}</td>
                     </tr>
-                    <tr class="bg-gray-200 w-full rounded-md"></tr>
+                    <tr class="bg-gray-200 w-full"></tr>
                         <td class="py-2">Nama Orang Tua:</td>
                         <td class="py-2">{{$nama_ortu}}</td>
                     </tr>
@@ -48,9 +38,10 @@
         </div>
 
         <!-- Pembayaran -->
-        <div class="bg-white shadow-lg rounded-lg p-6">
+        <div class="bg-white shadow-lg rounded-lg p-6 mx-auto">
             <div class="mb-4 flex justify-between">
-                <h2 class="text-xl font-semibold bg-green-700 px-4 rounded-md text-white py-2">Pembayaran</h2>
+                <div class="h1 text-xl pl-5 bg-green-700 rounded-lg py-2 font-semibold text-white w-full">Pembayaran</div>
+
                 
             </div>
             <div class="mt-7">
@@ -97,6 +88,3 @@
             </div>
         </div>
     </div>
-
-</body>
-</html>

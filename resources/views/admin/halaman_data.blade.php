@@ -70,8 +70,8 @@
                             <td class="border px-4 py-2">Rp 500.000</td>
                             <td class="border px-4 py-2">10-10-2024</td>
                             <td class="border px-4 py-2">
-                                <button class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-lg mr-2">Edit</button>
-                                <button class="bg-red-500 hover:bg-red-700 text-white py-1 px-3 rounded-lg">Hapus</button>
+                                <button href="" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-lg mr-2">Edit</button>
+                                <button href="" class="bg-red-500 hover:bg-red-700 text-white py-1 px-3 rounded-lg">Hapus</button>
                             </td>
                         </tr>
                         <!-- Tambahkan data lain sesuai kebutuhan -->

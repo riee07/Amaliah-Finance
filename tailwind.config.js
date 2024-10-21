@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#30ae45",
+        secondary: "#6dff86",
+      },
       animation: {
         wiggle: 'wiggle .5s ease-in-out infinite',
       },

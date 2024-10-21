@@ -63,10 +63,10 @@
             <i @click="open = !open" class='bx bx-x text-3xl cursor-pointer absolute right-0 top-0 '></i>
         </div>
     </div>
-    <div class=" flex justify-between w-11/12 mx-5 mt-5">
+    <div class=" flex justify-between w-11/12 mx-5 my-2">
         <div class="flex items-center justify-around">
             <div class="w-[50px] h-[50px] bg-[#30ae45]"></div>
-            <p class="ml-5">smk amaliah 1&2 ciawi</p>
+            <p class="ml-5">SMK Amaliah 1 & 2 Ciawi</p>
         </div>
         <div class="flex items-center relative justify-around"> 
             <i class='bx bx-bell text-3xl mr-5 text-slate-500 hover:animate-wiggle cursor-pointer'></i>

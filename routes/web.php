@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/siswa', [SiswaController::class, 'index']);
+
+
+Route::get('/admin', [AdminController::class, 'index']);
